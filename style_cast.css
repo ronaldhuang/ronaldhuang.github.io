@@ -13,3 +13,8 @@
 .splash {
   background-image: url(splash.png);
 }
+
+.watermark {
+  background-image: url(music_watermark.png);
+  background-size: 57px 57px;
+}
