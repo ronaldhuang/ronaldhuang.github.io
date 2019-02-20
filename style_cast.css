@@ -1,6 +1,5 @@
 .background {
   background: center no-repeat url(background.jpg);
-  background-size: 1920px 1080px;
 }
 
 .logo {
@@ -13,7 +12,6 @@
 
 .splash {
   background-image: url(splash.jpg);
-  background-size: 1920px 1080px;
 }
 
 .watermark {
