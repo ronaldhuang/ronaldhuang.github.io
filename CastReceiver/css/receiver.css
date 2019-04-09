@@ -47,11 +47,11 @@ cast-media-player:after {
   right: 0;
   top: 50%;
   bottom: 0;
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
+  font-size: 150px;
   font-weight: bold;
   margin-top: -150px;
-  opacity: 1.0;
+  opacity: 0.5;
   color: white;
 }
 cast-media-player:after {
