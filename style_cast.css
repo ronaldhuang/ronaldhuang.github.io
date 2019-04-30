@@ -1,5 +1,7 @@
 .background {
-  background: center no-repeat url(splash.jpg);
+  background: #1D0634; /* fallback for old browsers */
+  background: -webkit-linear-gradient(10deg, #1D0634, #5F5FB5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(10deg, #1D0634, #5F5FB5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .logo {
@@ -7,14 +9,14 @@
 }
 
 .progressBar {
-  background-color: rgb(0, 174, 216);
+  background-color: rgb(84, 221, 239);
 }
 
 .splash {
-  background-image: url(splash.jpg);
+  background-image: url(splash.png);
 }
 
 .watermark {
-  background-image: url(music_watermark.png);
+  background-image: url(watermark.png);
   background-size: 57px 57px;
 }
