@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 body {
-  --playback-logo-image: url('res/logo_googleg_color_1x_web_48dp.png');
+  --playback-logo-image: url('res/logo_googleg_color_2x_web_48dp.png'), url('res/hub-3.jpg');
 }
 
 cast-media-player {
