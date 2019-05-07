@@ -19,7 +19,6 @@ body {
 }
 
 cast-media-player {
-  --play-image: url('res/hub-1.jpg');
   --theme-hue: 60;
   --progress-color: rgb(0, 255, 255);
   --splash-image: url('res/background-1.jpg');
