@@ -41,7 +41,7 @@ cast-media-player {
 /* Sample Overlay Text                               */
 /* ------------------------------------------------- */
 cast-media-player:after {
-  content: "SAMPLE";
+  content: "AMBER";
   position: absolute;
   left: 0;
   right: 0;
@@ -52,5 +52,5 @@ cast-media-player:after {
   font-weight: bold;
   margin-top: -150px;
   opacity: 0.5;
-  color: red;
+  color: #008888;
 }
