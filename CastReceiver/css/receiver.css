@@ -19,7 +19,7 @@ body {
 }
 
 cast-media-player {
-  --theme-hue: 180;
+  --theme-hue: 100;
   --progress-color: rgb(0, 255, 255);
   --splash-image: url('res/background-1.jpg');
   --splash-size: cover;
@@ -53,19 +53,4 @@ cast-media-player:after {
   margin-top: -150px;
   opacity: 0.5;
   color: red;
-}
-
-cast-media-player:after {
-  content: "TEST";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  bottom: 0;
-  text-align: left;
-  font-size: 150px;
-  font-weight: bold;
-  margin-top: -150px;
-  opacity: 0.5;
-  color: white;
 }
