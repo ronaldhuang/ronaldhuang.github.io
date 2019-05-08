@@ -19,6 +19,7 @@ body {
 }
 
 cast-media-player {
+  --logo-size: 100px;
   --theme-hue: 60;
   --progress-color: rgb(0, 255, 255);
   --splash-image: url('res/background-1.jpg');
