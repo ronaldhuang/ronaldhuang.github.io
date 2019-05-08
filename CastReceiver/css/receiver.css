@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 body {
-  --playback-logo-image: url('res/amber_512x512.jpg');
+  --playback-logo-image: url('res/amber_512x512.png');
 }
 
 cast-media-player {
