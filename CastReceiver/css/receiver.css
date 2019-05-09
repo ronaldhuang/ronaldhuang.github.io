@@ -20,6 +20,8 @@ body {
 
 cast-media-player {
   --spinner-image: url('res/background.png');
+  --buffering-image: url('res/background.png');
+  --play-image: url('res/background.png');
   --watermark-image: url('res/watermark.png'); 
   --watermark-size: 57px 57px;
   --theme-hue: 60;
