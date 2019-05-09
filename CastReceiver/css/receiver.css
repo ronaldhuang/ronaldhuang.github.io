@@ -33,11 +33,14 @@ body {
 }
 
 .watermark {
-  background-image: url('res/watermark.png');
-  background-size: 57px 57px;
+  background-image: 
+  background-size: 
 }
 
 cast-media-player {
+  --background-image: url('res/background.png');
+  --watermark-image: url('res/watermark.png'); 
+  --watermark-size: 57px 57px;
   --theme-hue: 60;
   --progress-color: rgb(0, 255, 255);
   --splash-image: url('res/Splash.jpg');
