@@ -42,11 +42,8 @@ body {
 }
 
 cast-media-player {
-  --ad-title: Latticework;
   --theme-hue: 60;
   --progress-color: rgb(0, 255, 255);
-  --splash-image: url('res/background-1.jpg');
-  --splash-size: cover;
   --slideshow-interval: 8;
   --slideshow-animation: 3;
   --slideshow-image-1: url('res/amber/20180911amber14.jpg');
