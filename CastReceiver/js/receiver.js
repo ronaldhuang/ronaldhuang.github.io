@@ -20,8 +20,6 @@ Cast.
 
 'use strict';
 
-import { CastQueue } from './queuing.js';
-
 const context = cast.framework.CastReceiverContext.getInstance();
 const playerManager = context.getPlayerManager();
 
@@ -54,30 +52,10 @@ playbackConfig.autoResumeDuration = 5;
 const controls = cast.framework.ui.Controls.getInstance();
 controls.clearDefaultSlotAssignments();
 
-// Assign buttons to control slots.
-controls.assignButton(
-  cast.framework.ui.ControlsSlot.SLOT_1,
-  cast.framework.ui.ControlsButton.QUEUE_PREV
-)
-controls.assignButton(
-  cast.framework.ui.ControlsSlot.SLOT_2,
-  cast.framework.ui.ControlsButton.CAPTIONS
-)
-controls.assignButton(
-  cast.framework.ui.ControlsSlot.SLOT_3,
-  cast.framework.ui.ControlsButton.SEEK_FORWARD_15
-)
-controls.assignButton(
-  cast.framework.ui.ControlsSlot.SLOT_4,
-  cast.framework.ui.ControlsButton.QUEUE_NEXT
-)
 
 context.start({
-  queue: new CastQueue(),
   playbackConfig: playbackConfig,
-  supportedCommands: cast.framework.messages.Command.ALL_BASIC_MEDIA |
-                      cast.framework.messages.Command.QUEUE_PREV |
-                      cast.framework.messages.Command.QUEUE_NEXT
+  supportedCommands: cast.framework.messages.Command.ALL_BASIC_MEDIA
 });
 
 
