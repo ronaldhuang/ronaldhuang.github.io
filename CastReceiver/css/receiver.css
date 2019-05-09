@@ -18,6 +18,29 @@ body {
   --playback-logo-image: url('res/amber_48x48.png');
 }
 
+.background {
+  background: #1D0634; /* fallback for old browsers */
+  background: -webkit-linear-gradient(10deg, #1D0634, #5F5FB5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(10deg, #1D0634, #5F5FB5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo {
+  background-image: url('res/logo.png');
+}
+
+.progressBar {
+  background-color: rgb(84, 221, 239);
+}
+
+.splash {
+  background-image: url('res/splash.png');
+}
+
+.watermark {
+  background-image: url('res/watermark.png');
+  background-size: 57px 57px;
+}
+
 cast-media-player {
   --ad-title: Latticework;
   --theme-hue: 60;
